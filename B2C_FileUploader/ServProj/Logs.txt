@@ -1,0 +1,5 @@
+File Create Failure:\Grant-PC\AndroidDev\\adt-bundle-windows-x86_64-20130917\\sdk\\tools\\lib\\lint.jarrg.eclipse.core.runtime\\.table.1
+File Create Failure:\Grant-PC\AndroidDev\\adt-bundle-windows-x86_64-20130917\\sdk\\tools\\lib\\lombok-ast-NOTICE.txtuinox.app\\.manager\\
+File Create Failure:\Grant-PC\AndroidDev\\adt-bundle-windows-x86_64-20130917\\sdk\\tools\\lib\\lombok-ast.jaripse.core.runtime\\.orphans.1
+File Create Failure:\Grant-PC\AndroidDev\\adt-bundle-windows-x86_64-20130917\\sdk\\tools\\lib\\manifest-merger.jarcore.runtime\\.namespaces.1
+File Create Failure:\Grant-PC\AndroidDev\\adt-bundle-windows-x86_64-20130917\\sdk\\tools\\lib\\monitor-x86\\.eclipseproductimpleconfigurator\\bundles.info
