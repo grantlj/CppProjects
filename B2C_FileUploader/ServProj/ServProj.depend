@@ -1,9 +1,1 @@
 # depslib dependency file v1.0
-1381591572 source:d:\pastoc\b2c_fileuploader\serv.cpp
-	<winsock2.h>
-	<string>
-	<stdio.h>
-	<io.h>
-	<windows.h>
-	<iostream>
-

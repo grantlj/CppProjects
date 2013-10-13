@@ -17,7 +17,7 @@ using namespace std;
 //#define STR_GREAT       "CLIENT REQUEST CONNECT"
 //#define STR_FILE_SEND   "CLIENT REQUEST SEND"
 //#define STR_BYE         "CLIENT REQUEST DISCONNCET"
-#define ServIP          "192.168.173.1"
+//#define ServIP          "192.168.173.1"
 #define ServPort        5555
 #define LEN             255
 #define BufferSize      255
@@ -33,7 +33,7 @@ int Cmd,RealReadSize;
 bool f=true;
 char SendBuf[BufferSize];
 char RootDir[BufferSize];
-
+char ServIP[BufferSize];
 FILE *FileStream=NULL;
 
 //Some Basic Greeting infos.
@@ -279,8 +279,12 @@ void SocketMain()
 
 int main()
 {
+   cout<<"Enter Server IP Address:";
+   cin>>ServIP;
+   cout<<"Enter Path:";
+   cin>>RootDir;
    HSocketMainThread=CreateThread(NULL,0,(LPTHREAD_START_ROUTINE)SocketMain,NULL,0,&SocketMainThreadID);
-   strcpy(RootDir,"d:\\’’∆¨ºØ");
+   //strcpy(RootDir,"d:\\’’∆¨ºØ");
    string TDir(RootDir);
    TDir=TDir.substr(strlen(RootDir),LEN);
    TDir=TDir+"\\";
