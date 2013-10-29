@@ -9,7 +9,7 @@ static inline int cookiemgr_initrecvstmts(sqlite3* fs, PCOOKIEMGR_RECVSTMTs stmt
 {
 	//printf("before initrecvstmts\n");
 	int rtn;
-	memset(stmts, 0, sizeof(COOKIEMGR_RECVSTMTs));
+	mem(stmts, 0, sizeof(COOKIEMGR_RECVSTMTs));
 	rtn=sqlite3_prepare_v2(fs, "SELECT * FROM "tblcookie" WHERE (("cookie_colname"=?1) AND ("cookie_coldomain"=?2) AND("cookie_colpath"=?3))", -1, &(stmts->querystmt), 0);
 	//printf("prepare querystmt: %d\n",rtn);
 	rtn=sqlite3_prepare_v2(fs, "INSERT INTO "tblcookie" VALUES (?1, ?2, ?3, ?4, ?5, ?6)", -1, &(stmts->insertstmt), 0);
@@ -219,7 +219,7 @@ static inline int cookiemgr_parsebindline(sqlite3_stmt* stmt, char* url, char* s
 		eos=strchr(sos, '/');
 		rtn=sqlite3_bind_text(stmt, 5, sos, int(eos-sos), SQLITE_STATIC);
 		/*
-		*eos=0;	
+		*eos=0;
 		printf("manually set domain (%s): %d\n", sos, rtn);
 		*eos='/';
 		*/
@@ -260,7 +260,7 @@ int cookiemgr_recvedheader(sqlite3* fs, PCOOKIEMGR_RECVSTMTs* _stmts, char* url,
 	{
 		memcpy(&stmts, *_stmts, sizeof(COOKIEMGR_RECVSTMTs));
 	}
-	
+
 	soln=header;
 	eoln=strchr(soln, 13);
 	while ((soln!=eoln)&&(eoln!=0))
