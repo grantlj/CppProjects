@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch11_test1_operator_reload_freind", "ch11_test1_operator_reload\ch11_test1_operator_reload.vcxproj", "{ED4C191E-4F81-4844-89D3-164A63A8B8D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED4C191E-4F81-4844-89D3-164A63A8B8D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED4C191E-4F81-4844-89D3-164A63A8B8D9}.Debug|Win32.Build.0 = Debug|Win32
+		{ED4C191E-4F81-4844-89D3-164A63A8B8D9}.Release|Win32.ActiveCfg = Release|Win32
+		{ED4C191E-4F81-4844-89D3-164A63A8B8D9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
