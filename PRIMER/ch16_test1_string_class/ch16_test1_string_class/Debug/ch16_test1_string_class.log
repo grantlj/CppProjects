@@ -1,0 +1,14 @@
+﻿生成启动时间为 2015/2/21 11:49:24。
+     1>项目“D:\CppProjects\PRIMER\ch16_test1_string_class\ch16_test1_string_class\ch16_test1_string_class.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ch16_test1_string_class.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ch16_test1_string_class.cpp
+         ch16_test1_string_class.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CppProjects\PRIMER\ch16_test1_string_class\Debug\ch16_test1_string_class.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CppProjects\PRIMER\ch16_test1_string_class\Debug\ch16_test1_string_class.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CppProjects\PRIMER\ch16_test1_string_class\Debug\ch16_test1_string_class.lib" /MACHINE:X86 Debug\ch16_test1_string_class.obj
+         Debug\stdafx.obj
+         ch16_test1_string_class.vcxproj -> D:\CppProjects\PRIMER\ch16_test1_string_class\Debug\ch16_test1_string_class.exe
+     1>已完成生成项目“D:\CppProjects\PRIMER\ch16_test1_string_class\ch16_test1_string_class\ch16_test1_string_class.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.33

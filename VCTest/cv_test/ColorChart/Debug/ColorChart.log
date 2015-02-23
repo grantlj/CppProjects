@@ -1,0 +1,118 @@
+﻿生成启动时间为 2014/4/13 19:38:46。
+     1>项目“D:\CppProjects\VCTest\cv_test\ColorChart\ColorChart.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ColorChart.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ColorChart.cpp
+         ColorChart.cpp
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(1): warning C4627: “#include <opencv/highgui.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(2): warning C4627: “#include <opencv/cv.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(3): warning C4627: “#include <iostream>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(8): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(8): error C2065: “src”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(9): error C2065: “src”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(9): error C3861: “cvLoadImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(11): error C2065: “cout”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(11): error C2065: “endl”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(15): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(15): error C2065: “hsv”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(15): error C2065: “src”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(15): error C3861: “cvCreateImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(15): error C3861: “cvGetSize”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(16): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(16): error C2065: “h_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(16): error C2065: “src”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(16): error C3861: “cvCreateImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(16): error C3861: “cvGetSize”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(17): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(17): error C2065: “s_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(17): error C2065: “src”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(17): error C3861: “cvCreateImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(17): error C3861: “cvGetSize”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(18): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(18): error C2065: “v_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(18): error C2065: “src”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(18): error C3861: “cvCreateImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(18): error C3861: “cvGetSize”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(19): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(19): error C2065: “planes”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(19): error C2059: 语法错误:“]”
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(19): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(19): error C2065: “h_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(19): error C2065: “s_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(19): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(33): error C2065: “src”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(33): error C2065: “hsv”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(33): error C2065: “CV_BGR2HSV”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(33): error C3861: “cvCvtColor”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(34): error C3861: “cvNamedWindow”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(35): error C2065: “hsv”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(35): error C3861: “cvShowImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(37): error C2065: “hsv”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(37): error C2065: “h_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(37): error C2065: “s_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(37): error C2065: “v_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(37): error C3861: “cvCvtPixToPlane”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(38): error C3861: “cvNamedWindow”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(39): error C2065: “h_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(39): error C3861: “cvShowImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(40): error C3861: “cvNamedWindow”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(41): error C2065: “s_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(41): error C3861: “cvShowImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(42): error C3861: “cvNamedWindow”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(43): error C2065: “v_plane”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(43): error C3861: “cvShowImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(46): error C2065: “CvHistogram”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(46): error C2065: “hist”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(46): error C2065: “CV_HIST_ARRAY”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(46): error C3861: “cvCreateHist”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(48): error C2065: “planes”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(48): error C2065: “hist”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(48): error C3861: “cvCalcHist”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(52): error C2065: “hist”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(52): error C3861: “cvGetMinMaxHistValue”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(58): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(58): error C2065: “hist_img”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(58): error C3861: “cvCreateImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(58): error C3861: “cvSize”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(59): error C2065: “hist_img”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(59): error C3861: “cvZero”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(62): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(62): error C2065: “hsv_color”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(62): error C3861: “cvCreateImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(62): error C3861: “cvSize”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(63): error C2065: “IplImage”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(63): error C2065: “rgb_color”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(63): error C3861: “cvCreateImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(63): error C3861: “cvSize”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(71): error C2065: “hist”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(71): error C3861: “cvQueryHistValue_2D”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(72): error C3861: “cvRound”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(75): error C2065: “hsv_color”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(75): error C3861: “cvSet2D”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(75): error C3861: “cvScalar”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(76): error C2065: “hsv_color”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(76): error C2065: “rgb_color”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(76): error C2065: “CV_HSV2BGR”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(76): error C3861: “cvCvtColor”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(77): error C2065: “CvScalar”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(77): error C2146: 语法错误: 缺少“;”(在标识符“color”的前面)
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(77): error C2065: “color”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(77): error C2065: “rgb_color”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(77): error C3861: “cvGet2D”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(79): error C2065: “hist_img”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(81): error C2065: “color”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(79): error C3861: “cvRectangle”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(79): error C3861: “cvPoint”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(80): error C3861: “cvPoint”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(85): error C3861: “cvNamedWindow”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(86): error C2065: “src”: 未声明的标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(86): error C3861: “cvShowImage”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(88): error C3861: “cvNamedWindow”:  找不到标识符
+     1>d:\cppprojects\vctest\cv_test\colorchart\colorchart.cpp(88): fatal error C1003: 错误计数超过 100；正在停止编译
+     1>已完成生成项目“D:\CppProjects\VCTest\cv_test\ColorChart\ColorChart.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.28

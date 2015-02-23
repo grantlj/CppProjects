@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1383027756 source:d:\pastoc\oi\calc.c
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+

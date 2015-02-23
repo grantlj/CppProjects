@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cv_test", "cv_test\cv_test.vcxproj", "{2D1D2B40-225E-4514-8BCB-D23ABDC03996}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorChart", "ColorChart\ColorChart.vcxproj", "{18A6331A-FD0F-4961-B3C0-98E6962DC365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Debug|ARM.ActiveCfg = Debug|Win32
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Debug|ARM.Build.0 = Debug|Win32
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Debug|Win32.Build.0 = Debug|Win32
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Debug|x64.ActiveCfg = Debug|Win32
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Release|ARM.ActiveCfg = Release|Win32
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Release|Win32.ActiveCfg = Release|Win32
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Release|Win32.Build.0 = Release|Win32
+		{2D1D2B40-225E-4514-8BCB-D23ABDC03996}.Release|x64.ActiveCfg = Release|Win32
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Debug|ARM.ActiveCfg = Debug|Win32
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Debug|ARM.Build.0 = Debug|Win32
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Debug|Win32.Build.0 = Debug|Win32
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Debug|x64.ActiveCfg = Debug|x64
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Debug|x64.Build.0 = Debug|x64
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Release|ARM.ActiveCfg = Release|Win32
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Release|Win32.ActiveCfg = Release|Win32
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Release|Win32.Build.0 = Release|Win32
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Release|x64.ActiveCfg = Release|x64
+		{18A6331A-FD0F-4961-B3C0-98E6962DC365}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

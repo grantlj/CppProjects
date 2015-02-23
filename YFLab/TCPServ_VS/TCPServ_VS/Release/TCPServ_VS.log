@@ -1,0 +1,19 @@
+﻿生成启动时间为 2014/4/14 22:07:06。
+     1>项目“D:\CppProjects\YFLab\TCPServ_VS\TCPServ_VS\TCPServ_VS.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\TCPServ_VS.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TCPServ_VS.cpp
+         TCPServ_VS.cpp
+     1>TCPServ_VS.cpp(138): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CppProjects\YFLab\TCPServ_VS\Release\TCPServ_VS.exe" /INCREMENTAL:NO /NOLOGO uafxcwd.lib Libcmtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\CppProjects\YFLab\TCPServ_VS\Release\TCPServ_VS.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CppProjects\YFLab\TCPServ_VS\Release\TCPServ_VS.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
+         Release\TCPServ_VS.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“uafxcw.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+         TCPServ_VS.vcxproj -> D:\CppProjects\YFLab\TCPServ_VS\Release\TCPServ_VS.exe
+     1>已完成生成项目“D:\CppProjects\YFLab\TCPServ_VS\TCPServ_VS\TCPServ_VS.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.13
