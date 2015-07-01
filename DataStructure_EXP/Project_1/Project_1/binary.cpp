@@ -1,8 +1,9 @@
 #include "binary.h"
 #include "stdafx.h"
-
+//#include <iostream>
 int binary_search(const int* list, const int n, const int x)
 {
+	//std::cout << x;
 	int head = 0;
 	int tail = n - 1;
 	int mid = (head + tail) / 2;

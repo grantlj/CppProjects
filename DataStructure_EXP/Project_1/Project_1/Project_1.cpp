@@ -19,7 +19,7 @@ const int n_num = 8;
 const int eval_n[n_num]={ 100, 500, 1000, 2000, 4000, 6000, 8000, 10000 };
 
 //K_arr is the number of evaluation times for each parameter.
-const int k_arr[n_num] = { 8000, 8000, 8000, 8000, 8000, 8000, 8000, 8000 };
+const int k_arr[n_num] = { 20000, 18000, 16000, 14000, 12000, 12000, 11000, 10000 };
 
 
 
@@ -67,8 +67,10 @@ int _tmain(int argc, _TCHAR* argv[])
 			for (int exp = 0; exp < K; exp++)
 			{
 				//randomly select an x to search.
-				int x = now_array[rand() % now_n];
-				
+				//int x = now_array[rand() % now_n];
+
+				//select a number larger than the last one, ensure the worst case happening.
+				int x = now_array[now_n-1] + 1;
 				
 				
 				switch (test_index)
@@ -103,7 +105,9 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 		//Calculate total_time and average duration.
-		double total_time= stop - start;
+		double ticks= stop - start;
+		double total_time = ticks / CLK_TCK;
+		//double total_time = stop - start;
 		double duration = total_time / K;
 
 

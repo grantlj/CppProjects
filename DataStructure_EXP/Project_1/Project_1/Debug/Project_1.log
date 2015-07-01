@@ -1,9 +1,10 @@
-﻿生成启动时间为 2015/4/26 20:38:39。
+﻿生成启动时间为 2015/4/29 15:05:53。
      1>项目“D:\CppProjects\DataStructure_EXP\Project_1\Project_1\Project_1.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Project_1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Project_1.cpp
-         Project_1.cpp
-     1>d:\cppprojects\datastructure_exp\project_1\project_1\project_1.cpp(87): warning C4101: “e”: 未引用的局部变量
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Project_1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt binary.cpp
+         binary.cpp
+     1>d:\cppprojects\datastructure_exp\project_1\project_1\binary.cpp(1): warning C4627: “#include "binary.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CppProjects\DataStructure_EXP\Project_1\Debug\Project_1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CppProjects\DataStructure_EXP\Project_1\Debug\Project_1.pdb" /SUBSYSTEM:CONSOLE /STACK:"327680000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CppProjects\DataStructure_EXP\Project_1\Debug\Project_1.lib" /MACHINE:X86 Debug\binary.obj
          Debug\Project_1.obj
@@ -15,4 +16,4 @@
 
 生成成功。
 
-已用时间 00:00:01.26
+已用时间 00:00:00.44
